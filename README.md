@@ -43,7 +43,7 @@ Python standard library plus `yfinance`.
 
 ## Planned
 
-See [PLAN.md](PLAN.md) for the task list by module (historical data, backtest engine, run history, command line) and its current status.
+See [PLAN.md](PLAN.md) for the task list by module (historical data, backtest engine, run history, command line) and its current status, and [ROADMAP.md](ROADMAP.md) for the longer-term features.
 
 ## License
 

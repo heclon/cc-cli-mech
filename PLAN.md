@@ -54,12 +54,9 @@ Goal: every backtest is stored with its start and end time (UTC), parameters, th
 | CL-03 | `runs`, `runs show N` and `runs compare A B` | ⬜ | | |
 | CL-04 | Tests with a toy strategy and a temporary database | ⬜ | | |
 
-## Later: research tools
+## Later
 
-- Parameter sweeps with a robustness map
-- Walk-forward validation
-- Multi-symbol evaluation and a simple portfolio view
-- Monte Carlo on trade sequences
+Longer-term features (a database for historical data, parallel backtests, a FastAPI service, a FastMCP server, agent-driven optimization and more) are in [ROADMAP.md](ROADMAP.md). They move into this file as tasks when their turn comes.
 
 ## Conventions
 
