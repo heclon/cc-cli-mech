@@ -6,7 +6,7 @@ historical data, then backtest a strategy on it. I use it for my own swing-tradi
 setup so others can reuse it.
 
 **Status: early.** Today the repository contains the historical-data module only. The backtest engine
-is being moved here next (see [ROADMAP.md](ROADMAP.md)).
+is being moved here next.
 
 ## What works today
 
@@ -38,8 +38,14 @@ Python standard library plus `yfinance`.
 ## Limitations
 
 - Daily timeframe and Yahoo Finance only for now.
-- The cache has no metadata, no expiry and no data-quality checks yet (first items in the roadmap).
+- The cache has no metadata, no expiry and no data-quality checks yet (first on the to-do list).
 - No tests yet.
+
+## Planned
+
+- Data: per-file manifest with checksum, range slicing, data-quality checks, a `download`/`status` command line, offline tests
+- Backtest engine (daily, long-only, in-sample/out-of-sample) and indicators
+- A stored history of every backtest run (start/end time, parameters, data used, results)
 
 ## License
 
