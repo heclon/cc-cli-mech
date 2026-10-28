@@ -43,9 +43,7 @@ Python standard library plus `yfinance`.
 
 ## Planned
 
-- Data: per-file manifest with checksum, range slicing, data-quality checks, a `download`/`status` command line, offline tests
-- Backtest engine (daily, long-only, in-sample/out-of-sample) and indicators
-- A stored history of every backtest run (start/end time, parameters, data used, results)
+See [PLAN.md](PLAN.md) for the task list by module (historical data, backtest engine, run history, command line) and its current status.
 
 ## License
 
